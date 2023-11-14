@@ -1,0 +1,9 @@
+.similar-product-item {
+  list-style: none;
+  background-color: #2c364c;
+  margin: 10px;
+  padding: 20px;
+  width: 35%;
+  color: #fffff5;
+  border-radius: 10px;
+}

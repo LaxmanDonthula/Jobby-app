@@ -1,0 +1,39 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
+  text-align: left;
+}
+
+.not-found-img {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-img {
+    width: 30%;
+  }
+}
+.not-found-heading {
+  font-size: 32px;
+  align-self: flex-start;
+}
+
+.not-found-body {
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 40px;
+    align-self: center;
+  }
+  .not-found-body {
+    font-size: 24px;
+  }
+}
